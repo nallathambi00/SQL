@@ -1,2 +1,6 @@
-# SQL
-SQL
+CREATE TABLE Customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    country VARCHAR(50)
+);
